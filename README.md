@@ -43,14 +43,10 @@
 <p>&emsp;&emsp;웹을 통해 번호판을 비롯한 다양한 정보 확인 </p>
 
 ## 7. 설치 및 실행
-**C프로그램 컴파일**
-```bash
-# 라즈베리파이에서 컴파일 진행
-gcc -o SubwaySensor SubwaySensor.c -lwiringPi
-```
 **Python 라이브러리 설치**
 ```bash
-python3 -m pip install numpy pandas scipy scikit-learn
+python3 -m pip install numpy opencv-python-headless matplotlib tensorflow tflite-runtime
+python3 -m pip install pytesseract RPi.GPIO picamera argparse textblob
 
 # pip 설치 안될 시 가상환경을 통해서 설치
 python3 -m venv 설정할 이름
@@ -59,16 +55,18 @@ python3 -m venv 설정할 이름
 source 설정할 이름/bin/activate
 ```
 
-**Node 서버 가동 및 실행**
+**TensorFlow 모델 설치**
 ```bash
-node SubwayServer
+wget http://download.tensorflow.org/models/object_detection/ssdlite_mobilenet_v2_coco_2018_05_09.tar.gz
+tar -xzvf ssdlite_mobilenet_v2_coco_2018_05_09.tar.gz
 ```
+
+**프로젝트 실행**
+```bash
+python3 object.py
+```
+
 ## 7. 향후 개선할 점
-+ C -> Node(서버)로 보낼 때 단순 버퍼 형식이 아니라 UART나 TCP/UDP로 활용.
-+ AI 모델 평가를 위해 정확도 및 손실함수를 적용.
-+ 전송 데이터를 문자열 -> 바이너리로 바꿔서 데이터 크기 감소 및 전송 속도 향상.
--------------------------------------------------------------------------------------
-고려해 볼 만한 사항
-+ CRC를 추가하여 비트 검사
-+ 메모리 관리를 위해 직접 동적 할당
-+ Isolation Forest 외에 다른 모델 추가 (Ensemble Learning)
++ 전체적인 코드 리팩토링 진행하여 유지보수 확장.
++ AI 모델 TensorFlow 2.x 또는 PyTorch 기반 객체 탐지 모델로 대체.
++ 오류 방지를 위한 초음파 센서 데이터 필터링.
