@@ -35,10 +35,12 @@
 <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;차량탐지&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;임의의 번호판 이미지 추출</p><br><br>
 
 <img width="450" alt="실제번호판" src="https://github.com/user-attachments/assets/21472927-0b82-4970-904e-aa1f86a5cd5c" /> <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;실제 차량 번호판 번호 추출 <br><br><br>
-<img width="500" alt="데이터베이스" src="https://github.com/user-attachments/assets/0b1c9d67-51a4-4021-a07a-95fd7997da09" /> &emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;실제 차량 번호판 번호 추출 <br><br>
+
+<img width="500" alt="데이터베이스" src="https://github.com/user-attachments/assets/0b1c9d67-51a4-4021-a07a-95fd7997da09" /> 
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;추출된 번호는 데이터베이스로 전달 </p> <br><br>
 <img width="400" alt="웹" src="https://github.com/user-attachments/assets/78151b5b-ee4c-402d-b38f-4d10b4f2c286" />
-<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;추출된 번호는 데이터베이스로 전달&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;웹을 통해 번호판을 비롯한 다양한 정보 확인
+<p>&emsp;&emsp;웹을 통해 번호판을 비롯한 다양한 정보 확인 </p>
 
 ## 7. 설치 및 실행
 **C프로그램 컴파일**
