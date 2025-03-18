@@ -20,14 +20,34 @@
 <img width="750" alt="sequence " src="https://github.com/user-attachments/assets/244fed01-31b5-419c-a0da-5b0ddd205597" />
 
 ## 5. 활용된 기술
-**언어** : Python, Java, JavaScript, HTML/CSS <br>
-**라이브러리** : Numpy, Pandas, Matplotlib, TensorFlow, Pytesseract, OpenCV  <br>
-**IDE** : Visual Studio, Python3 IDLE, PyCharm, Android Studio <br>
-**프레임워크** : Express, Vue.js <br>
-**데이터베이스** : MongoDB <br>
-**서버** : Node.js <br>
-**머신러닝** : CNN (SSD MobileNet v2 COCO) <br>
-**하드웨어** : Raspberry Pi 4 Model B, PiCamera2 <br>
+ 
+### 💻 서버 및 백엔드
+- **Node.js** (JavaScript 런타임)
+- **Express.js** (웹 서버 프레임워크)
+
+### ⚙ 임베디드 시스템
+- **Raspberry Pi 4 Model B** (센서 데이터 처리 및 카메라 모듈 활용)
+
+### 🌐 프론트엔드
+- **HTML, CSS, JavaScript** (단속 차량 정보 확인)
+- **Vue.js** (웹 프레임워크)
+
+### 👩‍💻 머신러닝
+- **Python** (Raspberry Pi에서 센서 제어)
+- **CNN (SSD MobileNet v2 COCO)** (객체 탐지)
+
+### 📷 이미지 처리
+- **Pytesseract**
+- **OpenCV**
+
+### 🛢️ 데이터베이스 
+- **MongoDB**
+
+### 🛠 IDE
+- **Visual Studio**
+- **Python3 IDLE**
+- **PyCharm**
+- **Android Studio**
 
 ## 6. 프로젝트 실행 이미지
 <img width="330" alt="차량탐지" src="https://github.com/user-attachments/assets/95f46333-cc54-45d0-b4d2-0365faab21bb" />&emsp;&emsp;&emsp; 
