@@ -37,7 +37,7 @@
 - **Express.js** (웹 서버 프레임워크)
   
 ### 🛢️ 데이터베이스 
-- **MongoDB**
+- **MongoDB** (단속 차량 정보 저장)
 
 ### 👩‍💻 머신러닝
 - **Python** (Raspberry Pi에서 센서 제어)
